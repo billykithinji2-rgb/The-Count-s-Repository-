@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EverSmile Dental - Garden City Business Park, Nairobi</title>
+  <meta name="description" content="Modern, family-friendly dental clinic at Garden City Business Park, Nairobi offering teeth whitening, dental implants, orthodontics, routine checkups, and pediatric dentistry." />
+  <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            display: ['Outfit', 'sans-serif'],
+            sans: ['Plus Jakarta Sans', 'Outfit', 'sans-serif'],
+          },
+          colors: {
+            brandPink: {
+              50: '#fdf2f8',
+              100: '#fce7f3',
+              500: '#ec4899',
+              600: '#db2777',
+              700: '#be185d',
+            },
+            brandGreen: {
+              50: '#f0fdf4',
+              100: '#dcfce7',
+              500: '#22c55e',
+              600: '#16a34a',
+              700: '#15803d',
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Google Fonts: Outfit (Display) & Plus Jakarta Sans (Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: #ffffff;
+      color: #1e293b;
+    }
+    h1, h2, h3, h4, .font-display {
+      font-family: 'Outfit', sans-serif;
+      letter-spacing: -0.02em;
+    }
+  </style>
+</head>
+<body class="bg-white text-slate-800 antialiased selection:bg-pink-100 selection:text-pink-900">
+
+  <!-- TOP SOCIAL & STATUS BAR -->
+  <div class="bg-white border-b border-pink-100 text-slate-700 text-xs py-2 px-4">
+    <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-3">
+      <div class="flex items-center gap-3">
+        <span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200 font-semibold">
+          <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+          Open Today • Mon–Fri 8:00 AM - 5:00 PM • Sat till 3:00 PM
+        </span>
+        <a href="https://maps.app.goo.gl/3rkpGTrx1DtFe33F8" target="_blank" class="hidden md:inline-flex items-center gap-1 text-slate-600 hover:text-pink-600 transition-colors">
+          📍 Garden City Business Park, A103 Thika Rd, Nairobi
+        </a>
+      </div>
+      
+      <div class="flex items-center gap-4">
+        <!-- Social Channels -->
+        <div class="flex items-center gap-2 border-r border-slate-200 pr-3">
+          <a href="https://www.tiktok.com/@eversmile_dental?_r=1&_t=ZS-99bzeVtsmay" target="_blank" class="w-6 h-6 rounded-full bg-emerald-50 text-emerald-700 hover:bg-emerald-100 flex items-center justify-center font-bold text-[10px]" title="TikTok">
+            TT
+          </a>
+          <a href="https://www.instagram.com/eversmiledental_ke?stkn=MWNvNjFiam9wOWhhdw==" target="_blank" class="w-6 h-6 rounded-full bg-pink-50 text-pink-600 hover:bg-pink-100 flex items-center justify-center font-bold text-[10px]" title="Instagram">
+            IG
+          </a>
+          <a href="https://www.facebook.com/share/18iQ2gdXNt/" target="_blank" class="w-6 h-6 rounded-full bg-sky-50 text-sky-600 hover:bg-sky-100 flex items-center justify-center font-bold text-[10px]" title="Facebook">
+            FB
+          </a>
+          <a href="https://maps.app.goo.gl/3rkpGTrx1DtFe33F8" target="_blank" class="w-6 h-6 rounded-full bg-emerald-50 text-emerald-600 hover:bg-emerald-100 flex items-center justify-center font-bold text-[10px]" title="Google Maps">
+            📍
+          </a>
+        </div>
+
+        <a href="tel:+254795803669" class="font-bold text-pink-600 hover:text-pink-700">
+          📞 +254 795 803 669
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- NAVBAR -->
+  <nav class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-pink-50 py-4 shadow-2xs">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
+      
+      <!-- Brand Logo with Smiley Graphic matching uploaded image -->
+      <a href="#" class="flex items-center gap-3 group">
+        <div class="w-11 h-11 relative rounded-full shadow-md shadow-pink-500/10">
+          <svg viewBox="0 0 512 512" fill="none" class="w-full h-full">
+            <circle cx="256" cy="256" r="240" fill="#FFFFFF" stroke="#F1F5F9" stroke-width="6" />
+            <circle cx="166" cy="122" r="42" fill="#88D12A" />
+            <circle cx="346" cy="122" r="42" fill="#E61D79" />
+            <path d="M 124 256 C 128 385, 384 385, 388 256" stroke="#00A896" stroke-width="52" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+          </svg>
+        </div>
+        <div class="flex flex-col">
+          <span class="font-display font-black text-2xl tracking-tight leading-none text-slate-900">
+            <span class="text-pink-600">Ever</span><span class="text-emerald-500">Smile</span>
+            <span class="text-slate-800 ml-1 font-bold text-lg">Dental</span>
+          </span>
+          <span class="text-[10px] text-slate-500 font-medium tracking-wider uppercase mt-1">Garden City • Nairobi</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <div class="hidden lg:flex items-center gap-8">
+        <a href="#about" class="text-sm font-semibold text-slate-700 hover:text-pink-600 transition-colors">About Us</a>
+        <a href="#services" class="text-sm font-semibold text-slate-700 hover:text-pink-600 transition-colors">Services</a>
+        <a href="#hours" class="text-sm font-semibold text-slate-700 hover:text-pink-600 transition-colors">Working Hours</a>
+        <a href="#contact" class="text-sm font-semibold text-slate-700 hover:text-pink-600 transition-colors">Location & Contact</a>
+        <a href="#testimonials" class="text-sm font-semibold text-slate-700 hover:text-pink-600 transition-colors">Reviews</a>
+      </div>
+
+      <!-- Action CTA -->
+      <div class="flex items-center gap-3">
+        <a href="tel:+254795803669" class="hidden sm:inline-flex text-sm font-semibold text-slate-700 hover:text-pink-600 px-3 py-2">
+          Call Us
+        </a>
+        <a href="#book-appointment" class="inline-flex items-center gap-2 bg-gradient-to-r from-pink-600 to-emerald-500 hover:from-pink-700 hover:to-emerald-600 text-white text-sm font-bold px-6 py-3 rounded-2xl shadow-md shadow-pink-500/20 transition-all">
+          Book Appointment
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="py-20 lg:py-28 bg-white border-b border-pink-50 relative overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+        
+        <div class="lg:col-span-7 space-y-8 text-center lg:text-left">
+          <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-pink-50 border border-pink-200 text-pink-700 text-xs sm:text-sm font-semibold">
+            ✨ Welcoming Smiles at Garden City Business Park, Nairobi
+          </div>
+
+          <h1 class="font-display text-4xl sm:text-5xl md:text-6xl font-black text-slate-900 tracking-tight leading-[1.14]">
+            Bright, Confident Smiles Begin with <span class="text-pink-600">Gentle Care</span> & <span class="text-emerald-500">Pure Radiance</span>
+          </h1>
+
+          <p class="text-base sm:text-lg md:text-xl text-slate-600 max-w-2xl mx-auto lg:mx-0 leading-relaxed font-normal">
+            Experience modern, anxiety-free family dentistry at <strong class="text-slate-900">EverSmile Dental</strong>. From dazzling laser whitening and permanent titanium implants to joyful pediatric visits, our licensed specialists ensure every appointment is reassuring and comfortable.
+          </p>
+
+          <div class="grid grid-cols-2 sm:grid-cols-3 gap-3.5 pt-1 text-left max-w-xl mx-auto lg:mx-0 text-xs sm:text-sm">
+            <div class="flex items-center gap-2 text-slate-700 font-medium">✓ 100% Gentle & Pain-Free</div>
+            <div class="flex items-center gap-2 text-slate-700 font-medium">✓ NHIF & Major Insurances</div>
+            <div class="flex items-center gap-2 text-slate-700 font-medium">✓ Same-Day Emergencies</div>
+          </div>
+
+          <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-2">
+            <a href="#book-appointment" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-pink-600 via-rose-500 to-emerald-500 hover:from-pink-700 hover:to-emerald-600 text-white text-base font-bold px-8 py-4 rounded-2xl shadow-lg shadow-pink-600/20 transition-all">
+              <span>Book Appointment Online</span> →
+            </a>
+            <a href="tel:+254795803669" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-white hover:bg-pink-50/50 text-slate-800 border border-slate-200 text-base font-semibold px-7 py-4 rounded-2xl transition-colors">
+              <span>Call: +254 795 803 669</span>
+            </a>
+          </div>
+
+          <!-- Social Links Quick Bar -->
+          <div class="pt-3 flex flex-wrap items-center justify-center lg:justify-start gap-3 text-xs">
+            <span class="text-slate-400 font-medium">Connect with us:</span>
+            <a href="https://maps.app.goo.gl/3rkpGTrx1DtFe33F8" target="_blank" class="px-3 py-1.5 rounded-xl bg-slate-50 hover:bg-emerald-50 border border-slate-200 text-slate-700 hover:text-emerald-700 font-medium">
+              📍 Google Maps
+            </a>
+            <a href="https://www.tiktok.com/@eversmile_dental?_r=1&_t=ZS-99bzeVtsmay" target="_blank" class="px-3 py-1.5 rounded-xl bg-slate-50 hover:bg-emerald-50 border border-slate-200 text-slate-700 hover:text-emerald-700 font-medium">
+              TikTok
+            </a>
+            <a href="https://www.instagram.com/eversmiledental_ke?stkn=MWNvNjFiam9wOWhhdw==" target="_blank" class="px-3 py-1.5 rounded-xl bg-slate-50 hover:bg-pink-50 border border-slate-200 text-slate-700 hover:text-pink-700 font-medium">
+              Instagram
+            </a>
+            <a href="https://www.facebook.com/share/18iQ2gdXNt/" target="_blank" class="px-3 py-1.5 rounded-xl bg-slate-50 hover:bg-sky-50 border border-slate-200 text-slate-700 hover:text-sky-700 font-medium">
+              Facebook
+            </a>
+          </div>
+        </div>
+
+        <div class="lg:col-span-5">
+          <div className="relative rounded-3xl bg-white p-5 shadow-xl border border-pink-100 ring-1 ring-slate-100">
+            <div class="relative h-80 sm:h-96 w-full rounded-2xl overflow-hidden bg-slate-100">
+              <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1000&q=80" alt="EverSmile Dental Clinic Interior" class="w-full h-full object-cover" />
+              <div class="absolute bottom-4 left-4 right-4 p-3.5 bg-white/95 backdrop-blur-md rounded-2xl border border-white/60 shadow-lg text-slate-900">
+                <div class="text-xs font-black text-pink-600 uppercase">Garden City Business Park</div>
+                <div class="text-sm font-bold">Suite A103, Thika Road, Nairobi</div>
+                <div class="text-xs text-emerald-700 font-bold mt-1">Open: 8:00 AM – 5:00 PM (Sat till 3:00 PM)</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT US SECTION -->
+  <section id="about" class="py-24 md:py-32 bg-white border-b border-pink-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl mx-auto text-center space-y-5 mb-20">
+        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200 text-xs font-bold uppercase">
+          About EverSmile Dental
+        </div>
+        <h2 class="font-display text-3xl sm:text-4xl md:text-5xl font-extrabold text-slate-900">
+          High-Quality, Family-Friendly <span class="text-pink-600">Dental Care</span> in <span class="text-emerald-500">Nairobi</span>
+        </h2>
+        <p class="text-base sm:text-lg text-slate-600 leading-relaxed max-w-2xl mx-auto">
+          Founded to transform oral health in Kenya, EverSmile Dental combines high-precision clinical equipment with human warmth in a serene sanctuary at Garden City Business Park.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div class="bg-white rounded-3xl p-8 border border-slate-200/80 shadow-xs hover:border-pink-200 transition-all">
+          <div class="w-12 h-12 rounded-2xl bg-pink-50 text-pink-600 flex items-center justify-center font-bold text-xl mb-6">👨‍👩‍👧‍👦</div>
+          <h3 class="font-display text-xl font-bold text-slate-900 mb-3">Family-Centered Dentistry</h3>
+          <p class="text-sm text-slate-600 leading-relaxed">Welcoming toddlers, teens, working adults, and seniors with personalized, warm consultations.</p>
+        </div>
+
+        <div class="bg-white rounded-3xl p-8 border border-slate-200/80 shadow-xs hover:border-emerald-200 transition-all">
+          <div class="w-12 h-12 rounded-2xl bg-emerald-50 text-emerald-600 flex items-center justify-center font-bold text-xl mb-6">💖</div>
+          <h3 class="font-display text-xl font-bold text-slate-900 mb-3">Pain-Free & Calm</h3>
+          <p class="text-sm text-slate-600 leading-relaxed">Ultrasonic scalers, delicate numbing protocols, and gentle communication eliminate dental fears.</p>
+        </div>
+
+        <div class="bg-white rounded-3xl p-8 border border-slate-200/80 shadow-xs hover:border-pink-200 transition-all">
+          <div class="w-12 h-12 rounded-2xl bg-pink-50 text-pink-600 flex items-center justify-center font-bold text-xl mb-6">🔬</div>
+          <h3 class="font-display text-xl font-bold text-slate-900 mb-3">Digital 3D Diagnostics</h3>
+          <p class="text-sm text-slate-600 leading-relaxed">Equipped with intraoral scanners, low-dose digital panoramic X-rays, and soft tissue lasers.</p>
+        </div>
+
+        <div class="bg-white rounded-3xl p-8 border border-slate-200/80 shadow-xs hover:border-emerald-200 transition-all">
+          <div class="w-12 h-12 rounded-2xl bg-emerald-50 text-emerald-600 flex items-center justify-center font-bold text-xl mb-6">🛡️</div>
+          <h3 class="font-display text-xl font-bold text-slate-900 mb-3">Hospital Sterilization</h3>
+          <p class="text-sm text-slate-600 leading-relaxed">Strict international infection control using class-B vacuum autoclaves and single-use barriers.</p>
+        </div>
+      </div>
+
+      <!-- Dental Specialists Team -->
+      <div class="mt-20">
+        <div class="text-center max-w-2xl mx-auto mb-14 space-y-3">
+          <h3 class="font-display text-3xl sm:text-4xl font-extrabold text-slate-900">
+            Meet Our Dental Specialists
+          </h3>
+          <p class="text-slate-600 text-base leading-relaxed">
+            Our clinical team consists of certified practitioners accredited by the Kenya Medical Practitioners and Dentists Council (KMPDC).
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="bg-white rounded-3xl overflow-hidden border border-slate-200/80 shadow-xs hover:shadow-xl hover:border-pink-200 transition-all group">
+            <div class="h-72 overflow-hidden relative bg-slate-100">
+              <img src="/images/dr-sarah-kimani.jpg" alt="Dr. Sarah Kimani" class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500" />
+              <div class="absolute top-4 right-4 text-xs font-bold px-3 py-1.5 rounded-full shadow-sm bg-pink-100 text-pink-700">14+ Years Experience</div>
+            </div>
+            <div class="p-7 space-y-2">
+              <h4 class="font-display text-xl font-bold text-slate-900 group-hover:text-pink-600 transition-colors">Dr. Sarah Kimani, BDS, MDS</h4>
+              <div class="text-xs font-bold text-emerald-600 uppercase tracking-wider">Lead Dental Surgeon & Implantologist</div>
+              <p class="text-xs sm:text-sm text-slate-600 leading-relaxed pt-2">Over 14 years of restorative excellence. Passionate about painless implants, cosmetic smile redesigns, and gentle patient advocacy.</p>
+            </div>
+          </div>
+
+          <div class="bg-white rounded-3xl overflow-hidden border border-slate-200/80 shadow-xs hover:shadow-xl hover:border-emerald-200 transition-all group">
+            <div class="h-72 overflow-hidden relative bg-slate-100">
+              <img src="/images/dr-kevin-ombati.jpg" alt="Dr. Kevin Ombati" class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500" />
+              <div class="absolute top-4 right-4 text-xs font-bold px-3 py-1.5 rounded-full shadow-sm bg-emerald-100 text-emerald-800">Aligner Certified</div>
+            </div>
+            <div class="p-7 space-y-2">
+              <h4 class="font-display text-xl font-bold text-slate-900 group-hover:text-pink-600 transition-colors">Dr. Kevin Ombati, BDS</h4>
+              <div class="text-xs font-bold text-emerald-600 uppercase tracking-wider">Specialist Orthodontist</div>
+              <p class="text-xs sm:text-sm text-slate-600 leading-relaxed pt-2">Expert in invisible aligner biomechanics and contemporary pediatric interceptive orthodontics. Dedicated to harmonious facial symmetry and healthy bites.</p>
+            </div>
+          </div>
+
+          <div class="bg-white rounded-3xl overflow-hidden border border-slate-200/80 shadow-xs hover:shadow-xl hover:border-pink-200 transition-all group">
+            <div class="h-72 overflow-hidden relative bg-slate-100">
+              <img src="/images/dr-amina-yusuf.jpg" alt="Dr. Amina Yusuf" class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500" />
+              <div class="absolute top-4 right-4 text-xs font-bold px-3 py-1.5 rounded-full shadow-sm bg-pink-100 text-pink-700">Pediatric Lead</div>
+            </div>
+            <div class="p-7 space-y-2">
+              <h4 class="font-display text-xl font-bold text-slate-900 group-hover:text-pink-600 transition-colors">Dr. Amina Yusuf, BDS, Paed.Dent</h4>
+              <div class="text-xs font-bold text-emerald-600 uppercase tracking-wider">Pediatric Dental Care Specialist</div>
+              <p class="text-xs sm:text-sm text-slate-600 leading-relaxed pt-2">Specialized in fear-free pediatric care, behavioral shaping, and preventive fissure sealants to ensure your little ones cultivate lifelong positive oral hygiene.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES SECTION -->
+  <section id="services" class="py-24 md:py-32 bg-white border-b border-pink-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl mx-auto text-center space-y-5 mb-16">
+        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-pink-50 text-pink-700 border border-pink-200 text-xs font-bold uppercase">
+          Comprehensive Dental Solutions
+        </div>
+        <h2 class="font-display text-3xl sm:text-4xl md:text-5xl font-extrabold text-slate-900">
+          Advanced Dental Services for <span class="text-pink-600">Every Smile</span>
+        </h2>
+        <p class="text-base sm:text-lg text-slate-600 leading-relaxed max-w-2xl mx-auto">
+          Delivering clinical precision, lasting aesthetics, and comfortable experiences across Nairobi.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10">
+        <!-- Whitening -->
+        <div class="bg-white rounded-3xl p-8 sm:p-9 border border-slate-200/90 shadow-xs hover:border-pink-200 transition-all flex flex-col justify-between">
+          <div>
+            <div class="w-14 h-14 rounded-2xl bg-pink-50 text-pink-600 flex items-center justify-center text-2xl mb-6">✨</div>
+            <h3 class="font-display text-2xl font-bold text-slate-900 mb-2">Teeth Whitening</h3>
+            <p class="text-sm text-slate-600 leading-relaxed mb-6">Laser cosmetic whitening lifting up to 8 shades in 60 minutes, paired with custom home-bleaching trays.</p>
+            <ul class="text-xs text-slate-700 space-y-2 mb-6">
+              <li>✓ Enamel-safe hydrogen formulation</li>
+              <li>✓ Instant clinical transformation</li>
+              <li>✓ Anti-sensitivity remineralization</li>
+            </ul>
+          </div>
+          <a href="#book-appointment" class="w-full py-3 text-center bg-gradient-to-r from-pink-600 to-emerald-500 text-white font-bold text-sm rounded-2xl">Book Whitening</a>
+        </div>
+
+        <!-- Implants -->
+        <div class="bg-white rounded-3xl p-8 sm:p-9 border border-slate-200/90 shadow-xs hover:border-emerald-200 transition-all flex flex-col justify-between">
+          <div>
+            <div class="w-14 h-14 rounded-2xl bg-emerald-50 text-emerald-600 flex items-center justify-center text-2xl mb-6">🔩</div>
+            <h3 class="font-display text-2xl font-bold text-slate-900 mb-2">Dental Implants</h3>
+            <p class="text-sm text-slate-600 leading-relaxed mb-6">Permanent medical-grade titanium posts with natural porcelain crowns for lifelong chewing restoration.</p>
+            <ul class="text-xs text-slate-700 space-y-2 mb-6">
+              <li>✓ 3D CBCT guided precision placement</li>
+              <li>✓ Permanent bone integration</li>
+              <li>✓ Single tooth to full-arch solutions</li>
+            </ul>
+          </div>
+          <a href="#book-appointment" class="w-full py-3 text-center bg-gradient-to-r from-pink-600 to-emerald-500 text-white font-bold text-sm rounded-2xl">Book Implants</a>
+        </div>
+
+        <!-- Orthodontics -->
+        <div class="bg-white rounded-3xl p-8 sm:p-9 border border-slate-200/90 shadow-xs hover:border-pink-200 transition-all flex flex-col justify-between">
+          <div>
+            <div class="w-14 h-14 rounded-2xl bg-pink-50 text-pink-600 flex items-center justify-center text-2xl mb-6">😁</div>
+            <h3 class="font-display text-2xl font-bold text-slate-900 mb-2">Orthodontics & Aligners</h3>
+            <p class="text-sm text-slate-600 leading-relaxed mb-6">Discrete clear aligners and ceramic bracket braces to straighten misaligned teeth and fix malocclusions.</p>
+            <ul class="text-xs text-slate-700 space-y-2 mb-6">
+              <li>✓ Virtually invisible clear trays</li>
+              <li>✓ Modern ceramic aesthetic brackets</li>
+              <li>✓ Teenage & adult orthodontic plans</li>
+            </ul>
+          </div>
+          <a href="#book-appointment" class="w-full py-3 text-center bg-gradient-to-r from-pink-600 to-emerald-500 text-white font-bold text-sm rounded-2xl">Book Orthodontics</a>
+        </div>
+
+        <!-- Routine Checkups -->
+        <div class="bg-white rounded-3xl p-8 sm:p-9 border border-slate-200/90 shadow-xs hover:border-emerald-200 transition-all flex flex-col justify-between">
+          <div>
+            <div class="w-14 h-14 rounded-2xl bg-emerald-50 text-emerald-600 flex items-center justify-center text-2xl mb-6">🩺</div>
+            <h3 class="font-display text-2xl font-bold text-slate-900 mb-2">Routine Checkups & Cleaning</h3>
+            <p class="text-sm text-slate-600 leading-relaxed mb-6">Gentle ultrasonic scaling, air polishing, digital X-rays, and comprehensive oral cancer screenings.</p>
+            <ul class="text-xs text-slate-700 space-y-2 mb-6">
+              <li>✓ Calculus & deep stain removal</li>
+              <li>✓ Periodontal gum health check</li>
+              <li>✓ Preventative remineralizing polish</li>
+            </ul>
+          </div>
+          <a href="#book-appointment" class="w-full py-3 text-center bg-gradient-to-r from-pink-600 to-emerald-500 text-white font-bold text-sm rounded-2xl">Book Routine Checkup</a>
+        </div>
+
+        <!-- Pediatrics -->
+        <div class="bg-white rounded-3xl p-8 sm:p-9 border border-slate-200/90 shadow-xs hover:border-pink-200 transition-all flex flex-col justify-between">
+          <div>
+            <div class="w-14 h-14 rounded-2xl bg-pink-50 text-pink-600 flex items-center justify-center text-2xl mb-6">🎈</div>
+            <h3 class="font-display text-2xl font-bold text-slate-900 mb-2">Pediatric Dentistry</h3>
+            <p class="text-sm text-slate-600 leading-relaxed mb-6">Stress-free, gentle visits for kids and teens with cavity-preventing fissure sealants and fluoride therapies.</p>
+            <ul class="text-xs text-slate-700 space-y-2 mb-6">
+              <li>✓ Positive, fear-free child techniques</li>
+              <li>✓ Molar protection sealants</li>
+              <li>✓ Early childhood preventive care</li>
+            </ul>
+          </div>
+          <a href="#book-appointment" class="w-full py-3 text-center bg-gradient-to-r from-pink-600 to-emerald-500 text-white font-bold text-sm rounded-2xl">Book Pediatric Care</a>
+        </div>
+
+        <!-- Emergency -->
+        <div class="bg-white rounded-3xl p-8 sm:p-9 border border-rose-200 shadow-xs hover:border-rose-400 transition-all flex flex-col justify-between">
+          <div>
+            <div class="w-14 h-14 rounded-2xl bg-rose-50 text-rose-600 flex items-center justify-center text-2xl mb-6">🚨</div>
+            <h3 class="font-display text-2xl font-bold text-slate-900 mb-2">Emergency Dental Care</h3>
+            <p class="text-sm text-slate-600 leading-relaxed mb-6">Urgent same-day triage and immediate pain relief for broken teeth, severe pulpitis, and dental trauma.</p>
+            <ul class="text-xs text-slate-700 space-y-2 mb-6">
+              <li>✓ Priority emergency queue</li>
+              <li>✓ Urgent nerve and infection treatment</li>
+              <li>✓ Direct emergency phone line</li>
+            </ul>
+          </div>
+          <a href="tel:+254795803669" class="w-full py-3 text-center bg-rose-600 text-white font-bold text-sm rounded-2xl">Emergency: +254 795 803 669</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORKING HOURS SECTION -->
+  <section id="hours" class="py-24 md:py-32 bg-white border-b border-pink-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl mx-auto text-center space-y-5 mb-16">
+        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200 text-xs font-bold uppercase">
+          Operational Schedule
+        </div>
+        <h2 class="font-display text-3xl sm:text-4xl md:text-5xl font-extrabold text-slate-900">
+          Reliable Clinic <span class="text-pink-600">Working Hours</span>
+        </h2>
+        <p class="text-base sm:text-lg text-slate-600 leading-relaxed max-w-2xl mx-auto">
+          Open six days a week at Garden City Business Park to fit both busy work weeks and family weekends.
+        </p>
+      </div>
+
+      <div class="max-w-3xl mx-auto bg-white rounded-3xl p-8 sm:p-10 border border-slate-200/90 shadow-lg space-y-4">
+        <div class="p-5 rounded-2xl bg-white border border-slate-200 flex items-center justify-between">
+          <div>
+            <div class="font-display font-bold text-lg text-slate-900">Monday – Friday</div>
+            <div class="text-xs text-slate-500">Full day general & specialist dental care</div>
+          </div>
+          <div class="text-base font-bold text-emerald-700">8:00 AM – 5:00 PM</div>
+        </div>
+
+        <div class="p-5 rounded-2xl bg-white border border-slate-200 flex items-center justify-between">
+          <div>
+            <div class="font-display font-bold text-lg text-slate-900">Saturday</div>
+            <div class="text-xs text-slate-500">Family consultations & weekend checkups</div>
+          </div>
+          <div class="text-base font-bold text-emerald-700">8:00 AM – 3:00 PM</div>
+        </div>
+
+        <div class="p-5 rounded-2xl bg-slate-50 border border-slate-200 flex items-center justify-between">
+          <div>
+            <div class="font-display font-bold text-lg text-slate-600">Sunday</div>
+            <div class="text-xs text-slate-400">Closed for clinical sterilization</div>
+          </div>
+          <div class="text-base font-bold text-rose-500">Closed (Emergency Hotline Open)</div>
+        </div>
+
+        <div class="pt-6 flex flex-col sm:flex-row gap-4">
+          <a href="https://maps.app.goo.gl/3rkpGTrx1DtFe33F8" target="_blank" class="flex-1 py-3.5 px-6 rounded-2xl bg-emerald-50 hover:bg-emerald-100 text-emerald-800 font-bold text-center text-sm border border-emerald-200 transition-colors">
+            📍 Open Directions in Google Maps
+          </a>
+          <a href="#book-appointment" class="flex-1 py-3.5 px-6 rounded-2xl bg-gradient-to-r from-pink-600 to-emerald-500 text-white font-bold text-center text-sm shadow-md">
+            Reserve Appointment Online
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT & LOCATION SECTION -->
+  <section id="contact" class="py-24 md:py-32 bg-white border-b border-pink-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl mx-auto text-center space-y-5 mb-16">
+        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-pink-50 text-pink-700 border border-pink-200 text-xs font-bold uppercase">
+          Find Us in Nairobi
+        </div>
+        <h2 class="font-display text-3xl sm:text-4xl md:text-5xl font-extrabold text-slate-900">
+          Contact & Location <span class="text-pink-600">Details</span>
+        </h2>
+        <p class="text-base sm:text-lg text-slate-600 leading-relaxed max-w-2xl mx-auto">
+          Located at Garden City Business Park, A103 Thika Rd, Nairobi with direct highway access and secure mall parking.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
+        <div class="lg:col-span-5 space-y-6">
+          <div class="bg-white rounded-3xl p-7 border border-slate-200/90 shadow-xs">
+            <div class="text-xs font-bold text-slate-400 uppercase">Direct Phone Line</div>
+            <div class="font-display text-2xl font-black text-slate-900 mt-1">+254 795 803 669</div>
+            <p class="text-xs text-slate-500 mt-1">Call for appointments or urgent dental triage.</p>
+            <div class="pt-4 flex gap-3">
+              <a href="tel:+254795803669" class="px-4 py-2 rounded-xl bg-pink-600 text-white text-xs font-bold">Call Now</a>
+              <a href="https://wa.me/254795803669" target="_blank" class="px-4 py-2 rounded-xl bg-emerald-600 text-white text-xs font-bold">WhatsApp</a>
+            </div>
+          </div>
+
+          <div class="bg-white rounded-3xl p-7 border border-slate-200/90 shadow-xs">
+            <div class="text-xs font-bold text-slate-400 uppercase">Physical Address</div>
+            <div class="font-display text-lg font-bold text-slate-900 mt-1">Garden City, Business Park, A103 Thika Rd, Nairobi, Kenya</div>
+            <p class="text-xs text-slate-500 mt-1">Building A, Suite A103 (Ground Floor). Opposite the mall entrance.</p>
+            <div class="pt-4">
+              <a href="https://maps.app.goo.gl/3rkpGTrx1DtFe33F8" target="_blank" class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-emerald-50 text-emerald-800 text-xs font-bold border border-emerald-200">
+                📍 Open Google Maps Directions
+              </a>
+            </div>
+          </div>
+
+          <!-- Social Channels Card -->
+          <div class="bg-white rounded-3xl p-7 border border-pink-100 shadow-sm space-y-3">
+            <h4 class="font-display text-base font-bold text-slate-900">Connect with EverSmile Online</h4>
+            <div class="grid grid-cols-3 gap-2 text-center text-xs">
+              <a href="https://www.tiktok.com/@eversmile_dental?_r=1&_t=ZS-99bzeVtsmay" target="_blank" class="p-3 bg-emerald-50 rounded-xl text-emerald-800 font-bold hover:bg-emerald-100">
+                TikTok
+              </a>
+              <a href="https://www.instagram.com/eversmiledental_ke?stkn=MWNvNjFiam9wOWhhdw==" target="_blank" class="p-3 bg-pink-50 rounded-xl text-pink-700 font-bold hover:bg-pink-100">
+                Instagram
+              </a>
+              <a href="https://www.facebook.com/share/18iQ2gdXNt/" target="_blank" class="p-3 bg-sky-50 rounded-xl text-sky-700 font-bold hover:bg-sky-100">
+                Facebook
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="lg:col-span-7">
+          <div class="bg-white rounded-3xl overflow-hidden border border-slate-200/90 shadow-lg">
+            <div class="p-4 bg-slate-50 border-b border-slate-200 flex items-center justify-between text-xs font-bold">
+              <span>EverSmile Dental • Garden City Business Park</span>
+              <span class="text-slate-500">Nairobi, Kenya</span>
+            </div>
+            <div class="h-96 bg-slate-100">
+              <iframe
+                title="EverSmile Dental Location"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.895319803157!2d36.87770857577553!3d-1.2324083358941785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1681ab811a43%3A0x6d9f0490b2170be1!2sGarden%20City%20Business%20Park!5e0!3m2!1sen!2ske!4v1710000000000!5m2!1sen!2ske"
+                width="100%"
+                height="100%"
+                style="border:0;"
+                loading="lazy"
+              ></iframe>
+            </div>
+            <div class="p-4 bg-white border-t border-slate-200 flex justify-between items-center text-xs">
+              <span>GPS: 1.2324° S, 36.8799° E</span>
+              <a href="https://maps.app.goo.gl/3rkpGTrx1DtFe33F8" target="_blank" class="font-bold text-pink-600 hover:underline">
+                Open in Google Maps App →
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BOOKING FORM SECTION -->
+  <section id="book-appointment" class="py-24 md:py-32 bg-white border-b border-pink-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl mx-auto text-center space-y-5 mb-16">
+        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-pink-50 text-pink-700 border border-pink-200 text-xs font-bold uppercase">
+          Schedule Your Visit
+        </div>
+        <h2 class="font-display text-3xl sm:text-4xl md:text-5xl font-extrabold text-slate-900">
+          Book Your <span class="text-pink-600">Smile Visit</span> Online
+        </h2>
+        <p class="text-base sm:text-lg text-slate-600 leading-relaxed max-w-2xl mx-auto">
+          Our patient care coordinator will call or WhatsApp you promptly to confirm your scheduled time slot.
+        </p>
+      </div>
+
+      <div class="max-w-2xl mx-auto bg-white rounded-3xl p-8 sm:p-12 border border-slate-200/90 shadow-xl space-y-6">
+        <form onsubmit="alert('Thank you! Your appointment request has been received. Our EverSmile reception desk will call you shortly at the provided number.'); return false;" class="space-y-6">
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <div>
+              <label class="block text-xs font-bold text-slate-800 uppercase mb-2">Full Name *</label>
+              <input type="text" required placeholder="e.g. John Kamau" class="w-full px-4 py-3 bg-slate-50 rounded-xl border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-pink-500" />
+            </div>
+            <div>
+              <label class="block text-xs font-bold text-slate-800 uppercase mb-2">Phone Number *</label>
+              <input type="tel" required placeholder="+254 7XX XXX XXX" class="w-full px-4 py-3 bg-slate-50 rounded-xl border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-pink-500" />
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <div>
+              <label class="block text-xs font-bold text-slate-800 uppercase mb-2">Preferred Date *</label>
+              <input type="date" required class="w-full px-4 py-3 bg-slate-50 rounded-xl border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-pink-500" />
+            </div>
+            <div>
+              <label class="block text-xs font-bold text-slate-800 uppercase mb-2">Preferred Time *</label>
+              <select class="w-full px-4 py-3 bg-slate-50 rounded-xl border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-pink-500">
+                <option>Morning (8:00 AM – 12:00 PM)</option>
+                <option>Early Afternoon (12:00 PM – 2:30 PM)</option>
+                <option>Late Afternoon (2:30 PM – 5:00 PM)</option>
+                <option>Saturday (8:00 AM – 3:00 PM)</option>
+              </select>
+            </div>
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-slate-800 uppercase mb-2">Service Requested</label>
+            <select class="w-full px-4 py-3 bg-slate-50 rounded-xl border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-pink-500">
+              <option>Routine Checkups & Cleaning</option>
+              <option>Teeth Whitening</option>
+              <option>Dental Implants</option>
+              <option>Orthodontics & Aligners</option>
+              <option>Pediatric Dentistry</option>
+              <option>Emergency Dental Care</option>
+            </select>
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-slate-800 uppercase mb-2">Notes or Symptoms (Optional)</label>
+            <textarea rows="3" placeholder="Share any tooth sensitivity, history or questions..." class="w-full px-4 py-3 bg-slate-50 rounded-xl border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-pink-500"></textarea>
+          </div>
+
+          <button type="submit" class="w-full py-4 px-6 bg-gradient-to-r from-pink-600 to-emerald-500 text-white font-extrabold text-base rounded-2xl shadow-lg shadow-pink-600/20 hover:shadow-xl transition-all">
+            Confirm & Request Appointment
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-white text-slate-700 pt-20 pb-12 border-t border-pink-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 pb-16 border-b border-slate-100">
+        
+        <div class="lg:col-span-4 space-y-4">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-full shadow-xs">
+              <svg viewBox="0 0 512 512" fill="none" class="w-full h-full">
+                <circle cx="256" cy="256" r="240" fill="#FFFFFF" stroke="#F1F5F9" stroke-width="6" />
+                <circle cx="166" cy="122" r="42" fill="#88D12A" />
+                <circle cx="346" cy="122" r="42" fill="#E61D79" />
+                <path d="M 124 256 C 128 385, 384 385, 388 256" stroke="#00A896" stroke-width="52" stroke-linecap="round" fill="none" />
+              </svg>
+            </div>
+            <span class="font-display font-black text-2xl text-slate-900">
+              <span class="text-pink-600">Ever</span><span class="text-emerald-500">Smile</span>
+              <span class="text-slate-800 ml-1 text-lg font-bold">Dental</span>
+            </span>
+          </div>
+
+          <p class="text-sm text-slate-600 leading-relaxed max-w-sm">
+            Modern, gentle, family-friendly dental clinic at Garden City Business Park, Nairobi. Dedicated to radiant smiles for all ages.
+          </p>
+
+          <div class="flex items-center gap-3 pt-2">
+            <a href="https://www.tiktok.com/@eversmile_dental?_r=1&_t=ZS-99bzeVtsmay" target="_blank" class="px-3 py-1.5 rounded-xl bg-emerald-50 text-emerald-800 text-xs font-bold">
+              TikTok
+            </a>
+            <a href="https://www.instagram.com/eversmiledental_ke?stkn=MWNvNjFiam9wOWhhdw==" target="_blank" class="px-3 py-1.5 rounded-xl bg-pink-50 text-pink-700 text-xs font-bold">
+              Instagram
+            </a>
+            <a href="https://www.facebook.com/share/18iQ2gdXNt/" target="_blank" class="px-3 py-1.5 rounded-xl bg-sky-50 text-sky-700 text-xs font-bold">
+              Facebook
+            </a>
+            <a href="https://maps.app.goo.gl/3rkpGTrx1DtFe33F8" target="_blank" class="px-3 py-1.5 rounded-xl bg-emerald-50 text-emerald-700 text-xs font-bold">
+              Google Maps
+            </a>
+          </div>
+        </div>
+
+        <div class="lg:col-span-3 space-y-3">
+          <h4 class="font-display text-sm font-bold text-slate-900 uppercase">Core Services</h4>
+          <ul class="space-y-2 text-sm text-slate-600">
+            <li><a href="#services" class="hover:text-pink-600">Teeth Whitening</a></li>
+            <li><a href="#services" class="hover:text-pink-600">Dental Implants</a></li>
+            <li><a href="#services" class="hover:text-pink-600">Orthodontics & Aligners</a></li>
+            <li><a href="#services" class="hover:text-pink-600">Routine Checkups</a></li>
+            <li><a href="#services" class="hover:text-pink-600">Pediatric Dentistry</a></li>
+            <li><a href="#services" class="hover:text-pink-600">Emergency Dental Care</a></li>
+          </ul>
+        </div>
+
+        <div class="lg:col-span-2 space-y-3">
+          <h4 class="font-display text-sm font-bold text-slate-900 uppercase">Working Hours</h4>
+          <div class="space-y-2 text-xs text-slate-600">
+            <div><strong class="text-slate-900 block">Mon – Fri:</strong> 8:00 AM – 5:00 PM</div>
+            <div><strong class="text-slate-900 block">Saturday:</strong> 8:00 AM – 3:00 PM</div>
+            <div><strong class="text-slate-900 block">Sunday:</strong> Closed</div>
+          </div>
+        </div>
+
+        <div class="lg:col-span-3 space-y-3">
+          <h4 class="font-display text-sm font-bold text-slate-900 uppercase">Get In Touch</h4>
+          <div class="space-y-2 text-xs text-slate-600">
+            <div><a href="tel:+254795803669" class="font-bold text-pink-600 text-sm">📞 +254 795 803 669</a></div>
+            <div>📍 Garden City, Business Park, A103 Thika Rd, Nairobi, Kenya</div>
+            <div>✉️ care@eversmiledental.co.ke</div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
+        <div>© 2026 EverSmile Dental. All rights reserved. Garden City Business Park, Nairobi, Kenya.</div>
+        <a href="https://maps.app.goo.gl/3rkpGTrx1DtFe33F8" target="_blank" class="hover:text-pink-600">View Clinic on Google Maps →</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

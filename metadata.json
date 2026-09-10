@@ -1,0 +1,7 @@
+{
+  "name": "EverSmile Dental",
+  "description": "Modern family dental clinic at Garden City Business Park, Nairobi offering teeth whitening, dental implants, orthodontics, routine checkups, and pediatric care with an AI concierge.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

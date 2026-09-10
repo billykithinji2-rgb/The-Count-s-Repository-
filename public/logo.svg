@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <!-- White circular background with subtle crisp rim shadow -->
+  <defs>
+    <filter id="logoShadow" x="-10%" y="-10%" width="120%" height="120%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#ec4899" flood-opacity="0.12" />
+    </filter>
+  </defs>
+  <!-- Outer circle disc -->
+  <circle cx="256" cy="256" r="236" fill="#FFFFFF" filter="url(#logoShadow)" stroke="#f1f5f9" stroke-width="2" />
+  
+  <!-- Left Eye: Vibrant Light Green / Lime (#88D12A) -->
+  <circle cx="166" cy="118" r="42" fill="#88D12A" />
+  
+  <!-- Right Eye: Vibrant Hot Pink (#E61D79) -->
+  <circle cx="346" cy="118" r="42" fill="#E61D79" />
+  
+  <!-- Smile Mouth: Cheerful curved teal arc -->
+  <path
+    d="M 122 254 C 126 385, 386 385, 390 254"
+    stroke="#00A896"
+    stroke-width="54"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    fill="none"
+  />
+</svg>
