@@ -64,8 +64,19 @@ function aistudioMediaPlugin(): Plugin {
 }
 // LINT.ThenChange(//depot/google3/java/com/google/alkali/boq/makersuite/applet_dev_service/templates/initializers/react_theme/vite.config.ts:aistudio_media_plugin)
 
-export default defineConfig(() => {
+export default defineConfig(({ mode }) => {
+  // Base path configuration for production deployment (e.g. GitHub Pages)
+  // - In GitHub Actions, process.env.GITHUB_REPOSITORY is automatically provided ('owner/repo-name')
+  // - Can also be configured via process.env.BASE_PATH
+  // - Defaults to '/eversmile-dental/' for production and '/' for local dev
+  const repoName = process.env.GITHUB_REPOSITORY
+    ? `/${process.env.GITHUB_REPOSITORY.split('/')[1]}/`
+    : (process.env.BASE_PATH
+      ? (process.env.BASE_PATH.endsWith('/') ? process.env.BASE_PATH : `${process.env.BASE_PATH}/`)
+      : '/eversmile-dental/');
+
   return {
+    base: mode === 'production' ? repoName : '/',
     plugins: [react(), tailwindcss(), aistudioMediaPlugin()],
     resolve: {
       alias: {
